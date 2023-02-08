@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "Favorit";
+    src: url('Users/patrickfarrell/Desktop/Website-Final/ABCFavorit-Book-Trial.otf');
+    src: url('Users/patrickfarrell/Desktop/Website-Final/ABCFavorit-Book-Trial.otf') format('otf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Favorit-Mono";
+    src: url('Users/patrickfarrell/Desktop/Website-Final/ABCFavoritMono-Book-Trial.otf');
+    src: url('Users/patrickfarrell/Desktop/Website-Final/ABCFavoritMono-Book-Trial.otf') format('otf');
+    font-weight: 400;
+}
+h2 {
+    margin-left: 10px;
+}
+.runmap {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+.overlay {
+    z-index: 7;
+    height:100px;
+    width:100px;
+    color:blue;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.rectangle {
+    height: 45px;
+    width: 500px;
+    margin-top: 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    background-color: #E85004;
+    display: flex;
+    transition: max-height 0.2s ease-out;
+}
+.bottom-bar {
+    height: 27px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+}
+.bottom-bar-text {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    position: fixed;
+}
+::selection {
+    background-color: none;
+    color: white;
+}
+#map { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    width: 100%; 
+    z-index: 1;
+    height: 100%;
+}
+p {
+    color: white;
+    font-family: "Favorit";
+    margin-bottom: 500px;
+}
+h3 {
+    color: white;
+    font-family: "Favorit";
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-left: 10px;
+
+}
+body {
+    margin-left: 0cm;
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 0cm;
+}
+.inner-text {
+    margin-left: 5px;
+}
+.blue {
+    background-color: #1324C1;
+}
+.purple {
+    background-color: #470EE8;
+}
+.red {
+    background-color: #C41919;
+}
+.green {
+    background-color: #63A140;
+}
+.pink {
+    background-color: #AD0068;
+}
+.yellow {
+    background-color: #D9AA03;
+}
+.expand{
+    height: 317px;
+    width: 500px;
+    background-color: #E85004;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -17px;
+}
+.expand2{
+    height: 317px;
+    width: 500px;
+    background-color: #470EE8;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -17px;
+}
+.expand3{
+    height: 317px;
+    width: 500px;
+    background-color: #C41919;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -17px;
+}
+.expand4{
+    height: 317px;
+    width: 500px;
+    background-color: #1324C1;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -17px;
+}
+.expand5{
+    height: 317px;
+    width: 500px;
+    background-color: #63A140;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -17px;
+}
+.expand6{
+    height: 317px;
+    width: 500px;
+    background-color: #AD0068;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -17px;
+}
+.expand7{
+    height: 317px;
+    width: 500px;
+    background-color: #D9AA03;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -17px;
+}
+.miles {
+    margin-left: 176px;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: "Favorit";
+    font-weight: normal;
+    text-align: center;
+}
+h5 {
+    color: white;
+    font-size: 15px;
+    font-family: "Mono";
+    font-weight: normal;
+}
+h4 {
+    color: white;
+    font-size: 20px;
+    font-family: "Favorit";
+    font-weight: normal;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+}
+hr {
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 12px;
+}
