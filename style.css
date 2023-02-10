@@ -1,8 +1,9 @@
 @font-face {
-    font-family: "Favorit";
-    src: url('https://github.com/patrick-m-farrell/CTC-1000/blob/4109930d2c0b4a445925c7b2825ac3b399d1d7e6/ABCFavorit-Book-Trial.otf');
-    src: url('https://github.com/patrick-m-farrell/CTC-1000/blob/4109930d2c0b4a445925c7b2825ac3b399d1d7e6/ABCFavorit-Book-Trial.otf') format('otf');
-    font-weight: 400;
+    font-family: Favorit;
+    src: url("../CTC-1000/F16_Panel ABCFavorit-Book-Trial.otf") format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
 }
 @font-face {
     font-family: "Favorit-Mono";
